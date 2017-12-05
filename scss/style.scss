@@ -200,19 +200,48 @@ footer{
   .footer-block{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 15px;
     .footer-menu-block{
-      color: rgb(255,255,255);
-      .menu-title{
-        font-size: 18px;
-        margin-bottom: 5px;
+      color: #696B6A;
+      display: inline-flex;
+        .menu-title{
+        font-size: 22px;
       }
       .menu-list{
         padding-left: 10px;
+        a {
+          text-decoration: none;
+          color: #696B6A;
+        }
         ul{
+          padding: 50px;
           list-style-type: none;
+          margin-left: -140px;
         }
       }
     }
   }
+  .social{
+    margin-left: 100px;
+    a {
+      text-decoration: none;
+      color: rgb(36,36,42);
+    }
+  }
+  .links_logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: #696B6A;
+    color: rgb(36,36,42);
+    border-radius: 30px;
+  }
+  .copyright{
+    padding-top: 100px;
+    margin-left: -190px;
+
+  }
 }
+
